@@ -1,0 +1,26 @@
+.profile-form {
+    display: inline-block;
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 300px;
+  }
+  
+  .profile-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .profile-form input,
+  .profile-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  .profile-form button {
+    margin-top: 10px;
+    padding: 10px 15px;
+  }
+  

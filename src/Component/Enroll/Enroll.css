@@ -1,0 +1,29 @@
+.enroll-container {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../assest/main.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 50px;
+  padding-top: 35px;
+}
+
+.enroll-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.enroll-container h3 {
+  font-size: 1.2rem;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.enroll-container button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}

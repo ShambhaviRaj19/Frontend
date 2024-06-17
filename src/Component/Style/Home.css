@@ -1,0 +1,78 @@
+
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  /* Sections */
+  .hero {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+  }
+  
+  .hero h2 {
+    color: #333;
+  }
+  
+  .hero p {
+    color: #555;
+  }
+  
+  .hero button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Categories */
+  .featured-courses {
+    margin-top: 50px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .card h3 {
+    color: #333;
+  }
+  
+  .card p {
+    color: #555;
+  }
+  
+  .card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  

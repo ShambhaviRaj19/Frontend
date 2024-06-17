@@ -1,0 +1,103 @@
+/* Header */
+header {
+  background-color: #fda60d;
+  color: #fff;
+  padding: 20px 0;
+}
+
+/* Logo styles */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333; /* Color of the logo text */
+}
+
+.logo-icon {
+  width: 250px; /* Adjust the width of the icon */
+  height: auto;
+  margin-right: 10px; /* Adjust spacing between text and icon */
+}
+
+/* Styles for navigation links */
+.navbar-nav .nav-link {
+  color: #333; /* Default color of navigation links */
+  margin-right: 1rem; /* Adjust spacing between navigation links */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fda60d; /* Change color on hover */
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+  background-color: #fff; /* Background color of the dropdown menu */
+  border: 1px solid #ccc; /* Border of the dropdown menu */
+  border-radius: 4px; /* Border radius of the dropdown menu */
+  padding: 8px 0; /* Padding inside the dropdown menu */
+  margin-top: 8px; /* Spacing between the button and the dropdown menu */
+}
+
+.dropdown-menu li {
+  list-style: none; /* Remove default list styles */
+}
+
+.dropdown-menu li a {
+  display: block; /* Make the links block-level */
+  padding: 8px 16px; /* Padding for the links */
+  color: #333; /* Default color of the links */
+  text-decoration: none; /* Remove default underline */
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f0f0f0; /* Background color on hover */
+  color: #fda60d; /* Change color on hover */
+}
+/* In your CSS module file, e.g., LoginSignupPage.module.css */
+
+.button-primary {
+  width: 20vh;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff; /* Primary blue color */
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-primary:hover {
+  background-color: #fda60d; /* Darker blue on hover */
+}
+
+.button-primary:active {
+  background-color: hsla(35, 98%, 51%, 0.977); /* Even darker blue on click */
+}
+.search-btn {
+  background-color: #007bff;
+  width: 26vh;
+  border: none;
+  color: white;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: #fda60d;
+}

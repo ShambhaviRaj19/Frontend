@@ -1,0 +1,44 @@
+/* CourseCategories.css */
+
+.container {
+  margin-top: 50px; /* Adjust margin-top as needed */
+}
+
+.course-list {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.course-list-container {
+  overflow: hidden;
+}
+
+.course-list-inner {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.5s ease; /* Smooth transition for scrolling */
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.scroll-button.prev {
+  left: 10px;
+}
+
+.scroll-button.next {
+  right: 10px;
+}
+
+.selected {
+  border: 2px solid #007bff; /* Border color for selected course */
+}

@@ -1,0 +1,81 @@
+.recommendations {
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+.recommendations h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.course {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: calc(33.333% - 20px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course img {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  padding: 15px;
+}
+
+.entry-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.entry-content {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.ld_course_grid_button {
+  margin-bottom: 10px;
+}
+
+.ld_course_grid_button .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #0073e6;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.ld_course_grid_button .btn:hover {
+  background: #005bb5;
+}
+
+.elementor-element {
+  margin-bottom: 20px;
+}
+
+.elementor-widget-container {
+  padding: 15px;
+}
+
+.elementor-heading-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.elementor-size-default {
+  font-size: 16px;
+}
+
+.elementor-shortcode {
+  margin-top: 20px;
+}

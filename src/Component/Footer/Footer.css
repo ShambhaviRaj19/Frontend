@@ -1,0 +1,118 @@
+.footer-container {
+  background-color: #F3F4F6; /* Light gray background */
+  color: #333; /* Dark text color */
+  padding: 2vh 0; /* Reduce padding at the top and bottom using vh */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Column direction */
+  min-height: 60vh; /* Full height of the viewport */
+}
+
+.container {
+  max-width: 90vw; /* Limit the width of content using vw */
+  margin: 0 auto; /* Center the content */
+  flex-grow: 1; /* Allow container to grow */
+  padding: 0 2vw; /* Add horizontal padding */
+}
+
+.row {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow flex items to wrap */
+  margin-bottom: 1vh; /* Reduce margin-bottom using vh */
+}
+
+.col-md-4 {
+  flex: 1 1 33.333%; /* Flex grow and basis for 1/3 width */
+  padding: 1vh 1vw; /* Reduce padding inside columns using vh and vw */
+  background-color: #ffffff; /* White background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.col-md-4:hover {
+  transform: translateY(-5px); /* Lift the element slightly on hover */
+}
+
+.col-md-4 h5 {
+  font-size: 1.5em; /* Increase font size for heading */
+  font-weight: bold; /* Bold heading */
+  color: #333; /* Dark text color */
+  margin-bottom: 1vh; /* Space below heading */
+  text-transform: uppercase; /* Uppercase for heading */
+  border-bottom: 2px solid #333; /* Border below heading */
+  padding-bottom: 0.5vh; /* Padding below heading */
+}
+
+.col-md-4 p {
+  font-size: 1em; /* Standard font size for paragraph */
+  color: #666; /* Lighter text color */
+  line-height: 1.6; /* Increase line height for readability */
+  margin-top: 1vh; /* Space above paragraph */
+}
+
+
+.col-md-6 {
+  flex: 1 1 50%; /* Flex grow and basis for 1/2 width */
+  padding: 1vh 1vw; /* Reduce padding inside columns using vh and vw */
+}
+
+.footer-bottom {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Light text color */
+  padding: 2vh 0; /* Reduce padding at the top and bottom using vh */
+  text-align: center; /* Center align text */
+  width: 100%; /* Full width within the footer-container */
+  margin-top: auto; /* Push the footer-bottom to the bottom */
+  margin-top: 2vh; /* Add margin at the top to separate from content using vh */
+}
+
+.footer-bottom p {
+  margin: 0; /* Remove default margin for the paragraph */
+}
+
+.footer-icons {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 1vh 0; /* Add margin for spacing using vh */
+  text-align: center; /* Center align icons */
+}
+
+.footer-icons li {
+  display: inline-block; /* Display icons horizontally */
+  margin-right: 1vw; /* Reduce spacing between icons using vw */
+}
+
+.footer-icons li:last-child {
+  margin-right: 0; /* Remove margin from the last icon */
+}
+
+.grow {
+  transition: all 0.2s ease-in-out; /* Add transition effect */
+}
+
+.grow:hover {
+  transform: scale(1.5); /* Scale the icon on hover */
+}
+
+/* Additional styling for responsiveness */
+@media (max-width: 768px) {
+  .col-md-4, .col-md-6 {
+    flex: 1 1 100%; /* Full width for smaller screens */
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 4vw; /* Add more padding for smaller screens using vw */
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-container {
+    padding: 1vh 0; /* Reduce padding for very small screens using vh */
+  }
+  
+  .footer-bottom {
+    padding: 1vh 0; /* Reduce padding for footer on small screens using vh */
+  }
+}

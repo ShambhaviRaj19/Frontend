@@ -1,0 +1,173 @@
+/* Global colors and typography settings */
+.elementor-kit-714 {
+    --e-global-color-primary: #6EC1E4;
+    --e-global-color-secondary: #54595F;
+    --e-global-color-text: #7A7A7A;
+    --e-global-color-accent: #61CE70;
+    --e-global-typography-primary-font-family: "Roboto";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Roboto Slab";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Roboto";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500;
+  }
+  
+  /* Container width settings */
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1200px;
+  }
+  
+  .e-con {
+    --container-max-width: 1200px;
+  }
+  
+  /* Spacing for widgets */
+  .elementor-widget:not(:last-child) {
+    margin-block-end: 20px;
+  }
+  
+  .elementor-element {
+    --widgets-spacing: 20px 20px;
+  }
+  
+  /* Page title display setting */
+  h1.entry-title {
+    display: var(--page-title-display);
+  }
+  
+  /* Media query for screens narrower than 1025px */
+  @media (max-width: 1024px) {
+    .elementor-section.elementor-section-boxed > .elementor-container {
+      max-width: 1024px;
+    }
+  
+    .e-con {
+      --container-max-width: 1024px;
+    }
+  }
+  
+  /* Media query for screens narrower than 768px */
+  @media (max-width: 767px) {
+    .elementor-section.elementor-section-boxed > .elementor-container {
+      max-width: 767px;
+    }
+  
+    .e-con {
+      --container-max-width: 767px;
+    }
+  }
+  
+  /* Styles based on provided HTML */
+  @media (min-width: 1025px) {
+    .elementor-element-42162d2:not(.elementor-motion-effects-element-type-background),
+    .elementor-element-42162d2 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+      background-attachment: fixed;
+    }
+  }
+  
+  .elementor-element-42162d2:not(.elementor-motion-effects-element-type-background),
+  .elementor-element-42162d2 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url('https://websitedemos.net/online-courses-02/wp-content/uploads/sites/542/2020/10/background1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .elementor-element-42162d2,
+  .elementor-element-42162d2::before {
+    --border-transition: 0.3s;
+  }
+  
+  .elementor-element {
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  .e-flex {
+    display: flex;
+  }
+  
+  .e-con-boxed {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .e-con-inner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .e-con-full {
+    width: 100%;
+  }
+  
+  .e-con-child {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .elementor-widget-container {
+    margin: 15px 0;
+  }
+  
+  .elementor-divider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1px;
+    background-color: #e0e0e0;
+  }
+  
+  .elementor-divider-separator {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .elementor-heading-title {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+  }
+  
+  .elementor-size-default {
+    font-size: 1em;
+  }
+  
+  .elementor-button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .elementor-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .elementor-button:hover {
+    background-color: #005bb5;
+  }
+  
+  .elementor-button-content-wrapper {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .elementor-button-icon {
+    margin-right: 8px;
+  }
+  

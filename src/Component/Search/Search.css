@@ -1,0 +1,41 @@
+.coursera-search-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  .search-form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    border-radius: 20px;
+    border: 1px solid #ced4da;
+    padding: 10px; /* Added padding for input */
+  }
+  
+  .btn-primary {
+    border-radius: 20px;
+  }
+  
+  .list-unstyled {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list-unstyled li {
+    display: inline-block;
+    margin: 10px;
+    background-color: #223446;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-unstyled li:hover {
+    background-color: #ffa500; /* Changed hover background color to orange */
+    color: #fff;
+    cursor: pointer;
+  }
+  
